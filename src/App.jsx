@@ -2,6 +2,7 @@ import './App.css';
 
 function App() {
   return (
+    <>
     <div className="container">
       <nav>
         {/* Logo Container */}
@@ -35,6 +36,7 @@ function App() {
         </div>
       </nav>
     </div>
+    </>
   );
 }
 
