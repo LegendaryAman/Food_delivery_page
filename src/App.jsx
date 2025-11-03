@@ -35,6 +35,19 @@ function App() {
           <button>Register</button>
         </div>
       </nav>
+      {/*hero continer*/}
+      <div className="content">
+        <div className="hero-text">
+          <h1>Deliver <span className="content_span">Your Food</span></h1>
+          <h1>Easy and Fast</h1>
+          <p className="content_alice">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, amet.</p>
+        </div>
+        <form>
+        <input type="text" placeholder='Enter your delivery' />
+        <button type='submit' className='btn_sec'>Search</button>
+      </form>
+      </div>
+    
     </div>
     </>
   );
