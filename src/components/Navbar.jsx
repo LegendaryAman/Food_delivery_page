@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 function Navbar(){
     return (
         <nav>
@@ -27,8 +28,12 @@ function Navbar(){
 
         {/* Button Container */}
         <div className="btn_container">
-          <button>Sign In</button>
+          <Link to="/signIn">
+            <button>Signin</button>
+          </Link>
+          <Link to="/register">
           <button>Register</button>
+          </Link>
         </div>
       </nav>
     )
