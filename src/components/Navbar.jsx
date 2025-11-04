@@ -28,8 +28,8 @@ function Navbar(){
 
         {/* Button Container */}
         <div className="btn_container">
-          <Link to="/signIn">
-            <button>Signin</button>
+          <Link to="/signin">
+            <button>SignIn</button>
           </Link>
           <Link to="/register">
           <button>Register</button>
