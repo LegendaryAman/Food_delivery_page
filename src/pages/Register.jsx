@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 function Register() {
     return(
-        <div className="auth_container">
-            <h1>Register</h1>
+        <div className="auth_container flex items-center justify-center bg-red-600">
+            <h1 className='bg-red-500'>Register</h1>
             <form>
                 <input type="text" placeholder="Username" />
                 <input type="email" placeholder="Email" />
